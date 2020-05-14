@@ -6,7 +6,7 @@
 body{
 	background: #1e0f24;
 	color: #ffffff;
-	font-family: Arial;
+	font-family: 'Roboto', sans-serif;
 	font-size: 12px;
 }
 /*breakpoits*/
@@ -65,9 +65,13 @@ a:hover{
 }
 .site-title{
 	font-size: 4em;
+	font-family: 'Aladin', cursive;
 }
 .site-subtitle{
-	font-style: italic;
+	font-family: 'Open Sans', sans-serif;
+}
+.portfolio h2, .contato h2{
+	font-family: 'Open Sans', sans-serif;
 }
 .img-portfolio{
 	height: 100px;
