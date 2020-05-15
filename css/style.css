@@ -34,10 +34,13 @@ header{
 
 }
 .menu{
-	background: #9400d3;
+	background: #ffffffee;
+	box-shadow: 0px 0px 10px #1e0f24;
 	position: fixed;
+	padding: 10px 0px;
 	width: 100vw;
 	top: 0;
+	text-transform: uppercase;
 	z-index: 1;
 }
 .menu ul{
@@ -48,22 +51,20 @@ header{
 	list-style: none;
 }
 .menu a{
+	color: #9400d3;
 	display: block;
 	padding: 10px 40px;
-	transition: background 1s, color 1s;
+	transition: color 500ms, transform 500ms, font-weight 500ms;
 }
 .menu a:active,
 .menu a:hover{
-	background: #ffffff;
-	color: #9400d3;
-	text-decoration: none;
+	color: rgba(148,0,211, 1);
+	font-weight: bold;
+	transform: scale(1.1);
 }
 a{
 	color: #ffffff;
 	text-decoration: none;
-}
-a:hover{
-	text-decoration: underline;
 }
 .site-subtitle,
 .site-title{
