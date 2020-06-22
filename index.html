@@ -3,73 +3,106 @@
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100;300;400;500;700&display=swap" rel="stylesheet">
+    <link rel='icon' type='imagem/png' href='img/logo.png'>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=DM+Mono:wght@400;500&family=Roboto&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9949327dca.js" crossorigin="anonymous"></script>
 	<title>k0rgana :: Morgana Albuquerque</title>
 </head>
 <body>
-	<header>
-        <nav class="menu container">
-        <ul>
-            <li><a href="#sobre">Sobre</a></li>
-            <li><a href="#portfolio">Projetos</a></li>
-            <li><a href="#contato">Contato</a></li>
-        </ul>
-        </nav>
+    <div class="background-header">
+        <header>
+          <nav class="menu">
+            <ul>
+              <li><a href="#about">sobre</a></li>
+              <li><a href="#projects">projetos</a></li>
+              <li><a href="#contact">contato</a></li>
+            </ul>
+          </nav>
 
-        <div class="home"><a href="#home"><i class="fas fa-home"></i></a></div>
-
-        <div id="home">
+          <div id="top">
+            <img class="perfil-pic" src="img/perfil.png" alt="ilustração estilosa 2d de Morgana Albuquerque">
             <h1 class="site-title">Morgana Albuquerque</h1>
-            <h2 class="site-subtitle">web  designer and junior developer</h2>
+            <h2 class="site-subtitle">Web Developer Jr.</h2>
+            <p class="description">Menina que concerta a impressora de parente. Estudante em Sistemas para Internet pelo IFPE, com uma paixãozinha a mais pelo <strong>frontend</strong>.</p>
+            <section class="social-media">
+              <ul class="ul-icons">
+                <li>
+                    <a target="_blank" href="https://github.com/k0rgana">
+                        <span class="hidden">github</span>
+                        <i class="fab fa-github-square"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://linkedin.com/in/k0rgana">
+                        <span class="hidden">linkedin</span>
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                </li>
+                <li>
+                    <a target="_blank" href="https://twitter.com/k0rgana">
+                        <span class="hidden">twitter</span>
+                        <i class="fab fa-twitter-square"></i>
+                    </a>
+                </li>
+              </ul>
+            </section>
+          </div>
+        </header>
+    </div>
+
+ <div class="main-background">
+    <main>
+      <section class="section-about" id="about">
+        <h2>Sobre</h2>
+        <div class="section-about-box">
+            <p>Olá, me chamo Morgana Albuquerque, sou Pernambucana e Desenvolvedora Web com uma paixãozinha a mais pelo Front-end. Ex-aspirante a publicitária, que em meios a estudos autodidata em web design encontrei na programação a minha vocação. Possuo formação tecnica em informática para internet pelo IFPE  e atualmente estou cursando Sistemas para a Internet tambem pelo IFPE. Nas horas vagas, gosto de ler, ouvir podcast e assistir séries e/ou filmes.</p>
+
+            <p>Este site foi construido durante a <a href="https://www.alura.com.br/imersao-css">Imersão CSS da Alura</a> </p>
         </div>
-    </header>
-    <section class="about container">
-        <h2><i class="fas fa-align-left"></i>sobre_</h2>
-        <figure>
-            <img src="" alt="">
-            <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eaque sapiente nemo nesciunt harum distinctio amet explicabo corrupti porro cumque fugit voluptate voluptatum, expedita nostrum sunt? Fugiat beatae omnis facilis ratione!
-            </p>
-        </figure>
-    </section>
-	<section class="portfolio container" id="portfolio">
+      </section>
+
+      <section class="section-projects" id="projects">
         <h2>Projetos</h2>
+        
         <div class="grid">
-            <figure>
-                <img class="img-portfolio" src="./img/reqon.png" alt="Reqon">
-                <figcaption>Idealizy</figcaption>
-            </figure>
-            <figure>
-                <img class="img-portfolio" src="./img/reqon.png" alt="Reqon">
-                <figcaption>Reqon</figcaption>
-            </figure>
-            <figure>
-                <img class="img-portfolio" src="./img/reqon.png" alt="Reqon">
-                <figcaption>Web design</figcaption>
-            </figure>
-            <figure>
-                <img class="img-portfolio" src="./img/reqon.png" alt="Reqon">
-                <figcaption>Projetos pessoais</figcaption>
-            </figure>
+          <figure>
+            <img class="main-section-card" src="img/reqon.png" alt="reqon">
+            <figcaption>Reqon</figcaption>
+          </figure>
+          <figure>
+            <img class="main-section-card" src="img/template-one.png" alt="portifólio">
+            <figcaption>Portfólio</figcaption>
+          </figure>
+          <figure>
+            <img class="main-section-card" src="img/template-one.png" alt="portifólio">
+            <figcaption>Portfólio</figcaption>
+          </figure>
+          <figure>
+            <img class="main-section-card" src="img/template-one.png" alt="portifólio">
+            <figcaption>Portfólio</figcaption>
+          </figure>
+          <figure>
+            <img class="main-section-card" src="img/template-one.png" alt="portifólio">
+            <figcaption>Portfólio</figcaption>
+          </figure>
         </div>
-	</section>
-    <section class="contato container" id="contato" >
-        <h2>Contato</h2>
-        <div class="grid icons">
-            <a target="_blank" href="https://github.com/k0rgana">
-                <i class="fab fa-github-square"></i>
-            </a>
-            <a target="_blank" href="https://instagram.com/k0rgana">
-                <i class="fab fa-instagram-square"></i>
-            </a>
-            <a target="_blank" href="https://linkedin.com/in/k0rgana">
-                <i class="fab fa-linkedin"></i>
-            </a>
-            <a href="mailto:morganaf.albuquerque@gmail.com">
-                <i class="fas fa-envelope-square"></i>
-            </a>
-        </div>
-	</section>
+      </section>
+    </main>
+  </div>
+  
+  <footer class="main-footer" id="contact">
+    <div class="main-footer-contact">
+      <figure>
+        <!-- animacao para logo -->
+        <img class="logo" src="img/logo.png" alt="Logo k0rgana">
+      </figure>
+      <address>
+        Morgana Albuquerque<br>
+        <a href="https://twitter.com/k0rgana">twitter: @k0rgana</a><br>
+        <a href="mailto:morganaf.albuquerque@gmail.com">email: morganaf.albuquerque @ gmail</a>
+      </address>
+    </div>
+    <p class="footer-copy">&copy; 2020 | k0rgana. Made with ❤ in Quarentine</p>
+  </footer>
 </body>
 </html>
