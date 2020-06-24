@@ -263,6 +263,7 @@ svg{
 .section-projects figcaption {
     font-size: 14px;
     font-weight: bolder;
+    padding-top: .8em;
 }
 @media(min-width:1200px){
 	.container{
@@ -273,9 +274,9 @@ svg{
 }
 
 
-.main-section-card {
+.section-projects img {
 	border: 1px solid #141414;
-	box-shadow: 20px 20px 0px 5px #00ff99;
+	box-shadow: 5px 5px 1px 1px #00ff99;
 	height: 180px;
 	width: 200px;
 	object-fit: cover;
@@ -283,9 +284,9 @@ svg{
 	transition: transform 500ms, box-shadow 500ms;
 }
 
-.main-section-card:hover {
-transform: scale(1.2);
-box-shadow: 5px 5px 0px 3px #00ff99;
+.section-projects img:hover {
+	transform: translateY(-5px);
+	box-shadow: 5px 5px 1px 1px #000000;
 }
 
 
