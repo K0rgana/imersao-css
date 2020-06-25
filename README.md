@@ -13,3 +13,6 @@ HTML and CSS
 - Animations and @Keyframes  
 - Flexbox properties  
 - Hosting on Github pages
+
+## Preview
+![imersaocss](https://user-images.githubusercontent.com/48961500/85639609-9e2b2f00-b65f-11ea-9501-2a859ac1897b.gif)
